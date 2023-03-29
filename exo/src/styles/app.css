@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container{
+    @apply flex flex-col
+}
+
+.header{
+    @apply h-24 mt-6 mx-8 px-4 shadow-md rounded-md flex justify-between items-center bg-white overflow-hidden
+}
+
+.footer{
+    @apply bg-gray-200 mt-6 mx-8 shadow-md rounded-md flex items-center  overflow-hidden
+}
+
+.footer p{
+    @apply text-sm italic m-2
+}
+
+.info{
+    @apply  flex flex-col text-justify mx-8 mt-4
+}
+
+.form{
+    @apply flex flex-col w-1/3 p-4 rounded bg-gray-200 border border-2 border-gray-600
+}
+
+.form div{
+    @apply flex flex-col justify-center mb-4
+}
+
+.btn {
+  @apply px-3 py-1 rounded-md duration-200;
+}
+
+.btn.primary {
+  @apply bg-emerald-600 text-white hover:bg-emerald-900 hover:drop-shadow;
+}
+
+.btn.secondary {
+  @apply bg-blue-600 text-white hover:bg-blue-900 hover:drop-shadow;
+}
+
+.btn.cancel {
+  @apply bg-rose-600 text-white hover:bg-rose-900 hover:drop-shadow;
+}
+
+.btn.warning {
+  @apply bg-amber-600 text-white hover:bg-amber-900 hover:drop-shadow;
+}
+
+.btn:disabled {
+  @apply cursor-not-allowed bg-gray-300 hover:drop-shadow-none hover:bg-gray-300;
+}
+
+.link{
+  @apply italic font-bold duration-200 hover:text-blue-500
+}
+
+.input{
+  @apply bg-slate-50 border-2 border-gray-300 hover:border-gray-500 rounded-md w-3/5 ml-4 mr-6
+}
+
+.textarea{
+  @apply bg-slate-50 border-2 border-gray-300 hover:border-gray-500 rounded-md w-full mt-2
+}

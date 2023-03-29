@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Product A",
+            "price": 700,
+            "description": "description 1"
+        },
+        {
+            "id": 2,
+            "title": "Product B",
+            "price": 1050,
+            "description": "description 2"
+        },
+        {
+            "id": 3,
+            "title": "Product C",
+            "price": 2600,
+            "description": "description 3"
+        }
+    ],
+    "featured-products": [
+        {
+            "id":1,
+            "title": "feature product A",
+            "price": 700,
+            "description":"description 1"
+        },
+        {
+            "id":2,
+            "title": "feature product B",
+            "price": 1200,
+            "description":"description 2"
+        },
+        {
+            "id":3,
+            "title": "feature product C",
+            "price": 2500,
+            "description":"description 3"
+        }
+    ],
+    "most-active-stock":{
+        "symbol": "STOCK A",
+        "price": 230
+    },
+    "top-gaining-stock":{
+        "symbol": "STOCK B",
+        "price": 34
+    },
+    "top-losing-stock":{
+        "symbol": "STOCK C",
+        "price": 100
+    },
+    "stocks" : [
+        {
+            "symbol": "STOCK D",
+            "price": 600
+        },
+        {
+            "symbol": "STOCK E",
+            "price": 20
+        },
+        {
+            "symbol": "STOCK F",
+            "price": 150
+        }
+    ]
+}
